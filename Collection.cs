@@ -30,6 +30,7 @@ namespace MyProject
             myCollection.Add("c");
             myCollection.Add("this is a string");
             myCollection.Add(3.4);
+            Console.WriteLine("New commit");
 
             foreach (var c in myCollection) {
                 Console.WriteLine(c);
